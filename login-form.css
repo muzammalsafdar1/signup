@@ -1,0 +1,162 @@
+
+    
+    *{
+      margin:0px;
+      padding:0px;
+      font-family: 'sans-serif' , 'FontAwesome';
+      font-weight: 500;
+    }
+    body{
+    max-height:375px;
+    border:0px solid red;
+    max-width: 2000px;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    background-color: rgb(245, 241, 243);
+  }
+  .upper-div{
+    width:100%;
+    height:375px;
+    border:0px solid rgb(213, 212, 218);
+    max-width: 2000px;
+    min-width:450px;  
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    background-color: rgb(231, 231, 238);
+  }
+
+  /*****************************form division css*******************************/
+
+
+  .main-form-div{
+    height:450px;
+    width:450px;
+    border:1px solid rgb(206, 206, 209);
+    position: relative;
+    top:-250px;
+    left:auto;
+    margin-left:auto; 
+    margin-right:auto;
+    border-radius: 5px;
+    background-color: rgba(241, 241, 243, 0.5);
+
+  }
+  .inner-form-div{
+    margin-top:20px;
+    margin-left: 60px;
+    border: 0px solid black;
+  }
+
+/*****************************phone number input css********************************/
+
+  .phone-no{
+    height:30px;
+    border:0px;
+    width:300px;
+    font-size: 20px;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(156, 152, 152);
+    outline:0px;
+  }
+
+ /**************************** password input css***********************************/
+
+  .password{
+    height:30px;
+    font-size: 20px;
+    border:0px;
+    width:300px;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(156, 152, 152);
+    outline:0px;
+  }
+  ::placeholder{
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+ /***************************submit button****************************************/
+
+  .submit-btn{
+    height: 30px;
+    border-radius: 5px;
+    width:330px;
+    border:1px solid rgb(184, 185, 187);
+    cursor: pointer;
+    font-size: 15px;
+    margin-left:0px;
+  }
+  
+  span{
+    font-size: 17px;
+    font-weight: 5px;
+    
+    
+  }
+  .fas{
+    font-size: 24px;
+    color: rgb(121, 117, 117);
+
+  }
+  .fa-user{
+    font-size: 80px;
+    margin-top:30px;
+    margin-left: 200px;
+  }
+  .text-div{
+    display: flex;
+    flex-direction: row;
+  }
+  .password-div{
+    display:flex;
+    flex-direction: row;
+  }
+  .phone-icon-div{
+    
+    border-right:0px;
+    outline:0px;
+    padding-right:10px; 
+    height:30px;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(156, 152, 152);
+  }
+  .fa-home{
+    position: absolute;
+    top:20px;
+    left:20px;
+  }
+  .password-font-div{
+   
+    background-color: transparent;
+    border-bottom: 1px solid rgb(156, 152, 152);
+    outline:0px;
+    padding-right:10px; 
+    height:30px;
+  }
+  a[href]{
+    text-decoration: none;
+    color: purple;
+  }
+  a:active{
+    color:red;
+  }
+  a:visited{
+    color:blue;
+  }
+  #eye.active{
+    color:blue;
+  }
+  @media screen and (max-width:375px){
+    .main-form-div{
+      margin:100px 300px auto auto;
+    }
+    .inner-form-div{
+      padding-left: 0px;
+      margin-left: 40px;
+    }
+  }
+  @media screen and (max-width:320px){
+    .main-form-div{
+      top: -300px;
+    }
+  }

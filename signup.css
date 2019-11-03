@@ -1,0 +1,86 @@
+
+.main{
+  height:850px; 
+  width:100%;
+  max-width:475px;
+  min-width:400px ;
+  border:1px solid rgb(206, 204, 204);
+  margin:25px auto 20px auto;
+  border-radius: 20px;
+  background-color: rgb(250, 250, 250);
+}
+.header{
+  height:100px;
+  max-width:1349px;
+  min-width: 400px;
+  border:1px solid rgb(206, 204, 204);
+  border-radius: 20px;
+  display:flex;
+  flex-direction: row;
+  background-color: rgba(244, 243, 245, 0.7);
+}
+.home{
+  height: 100px;
+  width:100px;
+  background-color: rgba(230, 226, 233, 0.7);
+  border-radius:  20px 0px 0px 20px;
+  text-align: center;
+  padding-top:35px;
+  box-sizing: border-box;
+  transition-duration: 1s;
+  cursor: pointer;
+}
+.home:hover{
+  background-color: rgba(241, 241, 241, 0.7);
+  transition-property: background-color;
+  cursor: pointer;
+
+}
+a[href]{
+  text-decoration: none;
+}
+a:visited{
+  color:blue;
+}
+a:active{
+  color:purple;
+}
+input{
+  
+  font-size: 15px;
+  border:0px;
+  outline:0px;
+  background-color: transparent;
+  border-bottom: 1px solid rgb(172, 166, 166);
+}
+.inner{
+  border:0px solid red;
+  padding-top:40px;
+  padding-left:60px;
+}
+i{
+  color:rgb(90, 80, 80);
+}
+.submit{
+  height:35px;
+  width:295px;
+  border:1px solid rgb(238, 236, 236);
+  background-color:rgb(188, 191, 197); 
+  border-radius: 5px;
+  margin-left: auto;
+  line-height: 32px;
+  box-sizing: border-box;
+  text-align: center;
+  cursor: pointer;
+}
+.submit:hover{
+  background-color: rgb(145, 145, 146);
+  transition-property: background-color;
+  transition-duration: 2s;
+}
+#eye1.active{
+   color: blue;
+}
+#eye2.active{
+  color:blue;
+}

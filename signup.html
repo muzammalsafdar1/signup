@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/81e44cc2a9.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/81e44cc2a9.js"></script>
+<link rel="stylesheet" type="text/css" href="signup.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  
+  <div class="header">
+    <div class="home"><a style="text-decoration: none;" href="/../foods/index.php" ><i class="fas fa-home"></i> Home</div> </a>
+  </div>
+  <form action="" onsubmit="return validation()">
+    <div class="main">
+      <div class="inner">
+  <i class="fas fa-user"></i> <input type="text" class="input-fields first-name" placeholder="Enter Your First Name" value="" name="" size="33"><br>
+  <span></span>
+  <br><br>
+   
+  
+  <i class="fas fa-user"></i> <input type="text" class="input-fields" placeholder="Enter Your Last Name" value="" name="" size="33"><br>
+  <span></span>
+  <br><br>
+
+
+   <i class="fas fa-at"></i> <input type="email" class="input-fields" placeholder="Email Address" value="" name="" size="33"><br>
+   <span></span>
+   <br><br>
+
+
+  <i class="fas fa-lock"></i> <input type="password" class="input-fields" placeholder="Password" value="" name="" size="33"><br>
+  <span></span>
+  <br><br>
+
+
+  <i class="fas fa-lock"></i> <input type="password" class="input-fields" placeholder="Re-type Password" value="" name="" size="33"><br>
+  <span></span>
+  <br><br>
+
+
+  <i class="fas fa-venus-mars"></i> Gender<br><br><input type="radio" class="input-fields" placeholder="Gender" value="" name="same" >
+  
+ <i class="fas fa-mars"></i>  Male <input type="radio" class="input-fields" placeholder="Gender" value="" name="same" ><i class="fas fa-venus"></i> Female<br>
+ <span></span>
+ <br><br>
+
+
+  <i class="fas fa-phone-square-alt"></i> <input type="text" class="input-fields" placeholder="Phone No." value="" name="" size="33"><br>
+  <span></span>
+  <br><br>
+
+
+  <i class="fas fa-home"></i> <input type="text" class="input-fields" placeholder="Write your address" value="" name="" size="33"><br>
+  <span></span>
+  <br><br> 
+
+
+  <i class="fas fa-mail-bulk"></i> <input type="text" class="input-fields" placeholder="write your postal code" value="" name="" size="33"><br>
+  <span></span>
+  <br><br>
+
+
+
+
+
+  <input type="submit" class="submit"  value="Submit" name="submit" >
+
+</div>
+</div>
+</form>
+<script>
+   
+
+function validation(){
+  var fn = document.querySelectorAll("input")[0].value;
+   var ln = document.querySelectorAll("input")[1].value;
+   var em = document.querySelectorAll("input")[2].value;
+   var pass = document.querySelectorAll("input")[3].value;
+   var repass = document.querySelectorAll("input")[4].value;
+   var male = document.querySelectorAll("input")[5].value;
+   var female = document.querySelectorAll("input")[6].value;
+   var ph = document.querySelectorAll("input")[7].value;
+   var address = document.querySelectorAll("input")[8].value;
+   var pcode = document.querySelectorAll("input")[9].value;
+
+   var spn = document.querySelectorAll("span");
+
+  if(fn == ""){
+        spn[0].innerHTML = "** please fill first name";
+      
+        return false;
+       
+  }
+  
+}
+
+
+</script>
+
+</body>
+</html>
